@@ -5,6 +5,13 @@ $(document).ready(function(){
 	});
 });
 
+$(document).ready(function(){
+	$('.leftbar__ikon').click(function(event){
+		$('.leftbar__menu').toggleClass('active');
+		$('body').toggleClass('lock');
+	});
+});
+
 function ibg(){
 
 	let ibg=document.querySelectorAll(".ibg");

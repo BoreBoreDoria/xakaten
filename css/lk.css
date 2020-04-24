@@ -1,0 +1,140 @@
+.leftbar {
+  margin-top: 70px;
+  background-color: #4774ee;
+}
+
+.leftbar__body {
+  position: relative;
+  width: 20%;
+}
+
+.leftbar__ikon {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.leftbar__ikon:hover {
+  left: 0;
+}
+
+.leftbar__ikon img {
+  width: 50px;
+  height: 30px;
+  background-color: #224ab8;
+  border-radius: 0 25px 25px 0;
+  padding: 5px 5px 5px 26px;
+}
+
+.leftbar__menu {
+  padding: 40px 20px;
+  background-color: #fff;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.leftbar__menu.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.leftbar__list li {
+  margin-top: 20px;
+}
+
+.leftbar__link {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: green;
+}
+
+.stata {
+  margin-top: 70px;
+  background: #596fde;
+  background: linear-gradient(49deg, #596fde 0%, #8dbdd6 25%, #a261cc 65%, #9334ed 100%);
+}
+
+.stata__body {
+  padding: 30px 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stata__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 34px;
+}
+
+.stata__logo img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.stata__title {
+  color: white;
+}
+
+.stata__subtitle {
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.stata__list {
+  color: white;
+}
+
+.stata__list li {
+  margin-top: 5px;
+  font-size: 18px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.stata__list li:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  width: 10px;
+  height: 2px;
+  background-color: white;
+}
+
+.stata__avatar {
+  margin: 0 20px;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stata__info_conteiner {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 70%;
+          flex: 1 1 70%;
+  background-color: rgba(66, 160, 248, 0.308);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 4px 4px 8px;
+          box-shadow: 4px 4px 8px;
+}
