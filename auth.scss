@@ -1,18 +1,40 @@
 .auth {
 	margin-top: 70px;
-	background: linear-gradient(90deg, rgb(54, 132, 248) 0%, rgb(178, 116, 250) 100%);
+	background: linear-gradient(45deg, rgb(54, 132, 248) 0%, rgb(189, 134, 253) 70%);
+	padding: 10% 0;
 	&__body {
-		max-width: 1000px;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		color: white;
+		label{
+			margin-left: 5px;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+		}
+		input{
+			height: 30px;
+			margin-bottom: 20px;
+			border-radius: 10px;
+
+		}
 	}
 
 	&__title {
+		text-align: center;
+		font-size: 32px;
+		font-weight: 900;
+		text-transform: uppercase;
+		margin-bottom: 10%;
 	}
 
 	&__button {
 	}
 }
 .form {
+	max-width: 30%;
+	margin: 0 auto;
+	padding: 5%;
+	border:2px solid white;
+	border-radius:20px;
 }
+
