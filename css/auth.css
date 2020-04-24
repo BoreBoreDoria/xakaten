@@ -1,0 +1,19 @@
+.auth {
+  margin-top: 70px;
+  background: -webkit-gradient(linear, left top, right top, from(#3684f8), to(#b274fa));
+  background: linear-gradient(90deg, #3684f8 0%, #b274fa 100%);
+}
+
+.auth__body {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
