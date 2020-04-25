@@ -1,4 +1,5 @@
 .auth {
+  height: 100vh;
   margin-top: 70px;
   background: linear-gradient(45deg, #3684f8 0%, #bd86fd 70%);
   padding: 10% 0;
