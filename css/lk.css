@@ -238,4 +238,242 @@
 .sliderbig__item {
   border-radius: 10px;
   background-color: #fff;
+  padding: 15px;
+}
+
+.sliderbig .slidermini__logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chat__body {
+  width: 100%;
+  background-color: #4774ee;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 4px 8px;
+          box-shadow: 4px 4px 8px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.chat__message-body {
+  padding: 15px;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+}
+
+.chat__message-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.chat__message {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  padding: 20px 0 0 0;
+  min-height: 50px;
+}
+
+.chat__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 2;
+  border: 3px solid #72bbf7;
+}
+
+.chat__message-text {
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  position: relative;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.chat__message-text:before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  bottom: 1px;
+  width: 100%;
+  height: 4px;
+  background-color: #72bbf7;
+  z-index: 1;
+}
+
+.chat__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3bacf7;
+  padding: 10px;
+}
+
+.chat__form input {
+  background-color: #a261cc;
+  padding: 5px;
+  color: white;
+  border: 1px solid #575656;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  font-weight: 900;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.chat__form input:hover {
+  -webkit-box-shadow: 1px 3px 6px black;
+          box-shadow: 1px 3px 6px black;
+}
+
+.chat__form input:active {
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.chat__form textarea {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  border-radius: 5px 0 0 5px;
+  font-size: 18px;
+  padding-top: 2px;
+}
+
+.right {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.right .chat__img {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.right .chat__message-text {
+  text-align: end;
+  padding-right: 2px;
+}
+
+.right .chat__message-text:before {
+  left: 25px;
+}
+
+.command {
+  background-color: #4774ee;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 4px 8px;
+          box-shadow: 4px 4px 8px;
+  padding: 15px;
+}
+
+.command__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.command__img {
+  height: 150px;
+}
+
+.command__info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.command__info-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+}
+
+.command__info-subtitle {
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+}
+
+.command__info-list {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.command__info-item {
+  background-color: cornflowerblue;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: white;
+  font-style: oblique;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.command__sostav {
+  background-color: cornflowerblue;
+  padding: 15px;
+}
+
+.command__sostav-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.command__sostav-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.command__sostav-info {
+  margin-left: 5px;
+}
+
+.command__sostav-name {
+  font-size: 24px;
+  color: white;
+  font-weight: 900;
+}
+
+.command__sostav-rol {
+  font-size: 18px;
+  color: white;
+  font-style: oblique;
 }
