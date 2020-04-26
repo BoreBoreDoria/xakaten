@@ -1,8 +1,13 @@
 .auth {
   height: 100vh;
-  margin-top: 70px;
   background: linear-gradient(45deg, #3684f8 0%, #bd86fd 70%);
   padding: 10% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .auth__body {
@@ -42,4 +47,10 @@
   padding: 5%;
   border: 2px solid white;
   border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  .form {
+    max-width: 95%;
+  }
 }
